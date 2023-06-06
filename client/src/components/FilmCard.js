@@ -23,29 +23,7 @@ const FilmCard = ({ film }) => {
           <Link to={`/films/${film_id}`}>View</Link>
         </button>
       </div>
-      {/* <div className="card bg-base-100 rounded-sm ring ring-primary shadow-xl">
-        <figure>
-          <img src="" alt="DVD Image" />
-        </figure>
-        <div className="card-body">
-          <h2 className="card-title">{film.title}</h2>
-          <p className="text-sm">{film.description}</p>
-          <div className="flex gap-2">
-            <div className="badge badge-secondary">{film.name}</div>
-            <div className="badge badge-primary badge-outline">
-              {film.rating}
-            </div>
-          </div>
-          <div className="card-actions justify-end">
-            <Link
-              to={`/films/${film_id}`}
-              className="btn btn-primary btn-sm rounded-sm"
-            >
-              View
-            </Link>
-          </div>
-        </div>
-      </div> */}
+
     </>
   );
 };

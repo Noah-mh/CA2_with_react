@@ -5,7 +5,7 @@ getConnection: function() {
     var conn = mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "Noah@007",
+    password: "password@123",
     database: "bed_dvd_db",
     dateStrings: true,
 });
